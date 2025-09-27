@@ -16,8 +16,9 @@ st.set_page_config(
 
 # --- Google Drive Model Download ---
 MODEL_PATH = "plantdisease.h5"
-DRIVE_FILE_ID = "YOUR_FILE_ID"  # Replace with your Google Drive file ID
-DRIVE_URL = f"https://drive.google.com/uc?id={DRIVE_FILE_ID}"
+DRIVE_FILE_ID = "1s___WyG_cSKecW4wnC5mCBcF63r-AERO"  # Replace with your Google Drive file ID
+DRIVE_URL = "https://drive.google.com/uc?id=1s___WyG_cSKecW4wnC5mCBcF63r-AERO"
+
 
 # Download model if it doesn't exist
 if not os.path.exists(MODEL_PATH):
@@ -119,3 +120,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
